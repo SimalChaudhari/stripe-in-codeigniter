@@ -36,7 +36,7 @@ Step 7 : Include <script src="https://js.stripe.com/v3/"></script> in your page 
 
 Step 8 : Downoad Stripe page with composer or direct folder from this repo (application/third_party/stripe/).
 
-Step 9 : include Stripe PHP library in controller. and set secret key.
+Step 9 : include Stripe PHP library in controller. and set secret key.::
         require_once APPPATH."third_party/stripe/init.php";
 
         \Stripe\Stripe::setApiKey(SECRET_KEY);
@@ -66,7 +66,7 @@ Step 9 : include Stripe PHP library in controller. and set secret key.
              return $subscription;
 
 
-Step 10 : Got to stripe account and check the customer & subscription menu from navigation bar  https://prnt.sc/shctvy, https://prnt.sc/shcuc1
+Step 10 : Go to stripe account and check the customer & subscription menu from navigation bar  https://prnt.sc/shctvy, https://prnt.sc/shcuc1
 
 
 This is stripe API documentation https://stripe.com/docs/api where you can check the code and parameter for particular API 
