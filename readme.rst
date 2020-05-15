@@ -1,14 +1,14 @@
 so there are many payment integration but Strip payment gateway is one of the easiest and powerful solution.
 
 you must have stripe account and stripe is provide API Keys as bellow.
-#1. Test API Keys
-#2. Live API Keys
+##1. Test API Keys
+##2. Live API Keys
 
 
-#1. Test API Keys
+##1. Test API Keys
 
--> Login https://stripe.com/ with your Stripe account credentials and navigate to the Developers » API keys page.
- this keys are use for developing purposem so before go to live it will help to test.
+[ Login https://stripe.com/ with your Stripe account credentials and navigate to the Developers » API keys page.
+ this keys are use for developing purposem so before go to live it will help to test.]
  
  This is stripe API documentation https://stripe.com/docs/api where you can check the code and parameter for particular API 
 
