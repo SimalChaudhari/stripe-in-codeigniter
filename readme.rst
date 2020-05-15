@@ -7,6 +7,8 @@ So there are many payment integration but Strip payment gateway is one of the ea
 you must have stripe account and stripe is provide API Keys as bellow.
 *******************
 1. Test API Keys
+*******************
+*******************
 2. Live API Keys
 *******************
 
