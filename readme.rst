@@ -36,8 +36,8 @@ Step 7 : Include <script src="https://js.stripe.com/v3/"></script> in your page 
 
 Step 8 : Downoad Stripe page with composer or direct folder from this repo (application/third_party/stripe/).
 
-Step 9 : include Stripe PHP library in controller. and set secret key.::
-        require_once APPPATH."third_party/stripe/init.php";
+Step 9 : include Stripe PHP library in controller. and set secret key.
+       :: require_once APPPATH."third_party/stripe/init.php";
 
         \Stripe\Stripe::setApiKey(SECRET_KEY);
             'email' => trim($this->input->post('email')),
@@ -63,7 +63,7 @@ Step 9 : include Stripe PHP library in controller. and set secret key.::
                     ),
                     'trial_period_days' => 14,
                 ));
-             return $subscription;
+             return $subscription;::
 
 
 Step 10 : Go to stripe account and check the customer & subscription menu from navigation bar  https://prnt.sc/shctvy, https://prnt.sc/shcuc1
