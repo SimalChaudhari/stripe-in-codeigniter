@@ -8,6 +8,7 @@ you must have stripe account and stripe is provide API Keys as bellow.
 *******************
 1. Test API Keys
 *******************
+
 *******************
 2. Live API Keys
 *******************
@@ -16,7 +17,8 @@ you must have stripe account and stripe is provide API Keys as bellow.
 1. Test API Keys
 ###################
 
-Test API Keys use for developing purposem so before go to live it will help to test.
+Test API Keys use for developing purpose so before go to live it will help to test.
+Let's get start with steps
 
 Step 1 : Create a Stripe account (https://stripe.com/) and login to the dashboard.
 
@@ -75,6 +77,7 @@ If you want to implement in any technology then you must need to folow above ste
 2. Live API Keys
 ###################
 Go to stripe account and make test mode off https://prnt.sc/shcb6c so you will get live Keys and implement that keys.
--> Live key will use for original transaction so be carefull for testing time.
+
+Live key will use for original transaction so be carefull for testing time.
 
 Note : You must create plan from stripe from Billing->Products https://prnt.sc/shc4t0
