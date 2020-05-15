@@ -34,7 +34,7 @@ Now got to signup.php page and check the code.
 ###################
 2. Live API Keys
 ###################
-Go to stripe account and make test mode off so you will get live Keys and implement that keys.
+Go to stripe account and make test mode off https://prnt.sc/shcb6c so you will get live Keys and implement that keys.
 
 
 Note : You must create plan from stripe from Billing->Products https://prnt.sc/shc4t0
