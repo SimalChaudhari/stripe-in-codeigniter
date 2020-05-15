@@ -1,0 +1,82 @@
+html {
+    background: linear-gradient(to bottom, #ffffff 0%, #f8e7f6 75%);
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.wrap {
+    width: 600px;
+    padding: 60px 0px 40px 0px;
+    margin: 100px auto;
+    background: linear-gradient(to bottom, #f2f2f2 0%, #ffffff 48%, #f2f2f2 100%);
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px #e5d7e3;
+}
+
+.label {
+    width: 280px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.warning {
+    color: red;
+}
+
+.wrap img:first-child {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 280px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    padding: 12px 0px;
+    text-align: center;
+    background: linear-gradient(to bottom, #b866d1 1%, #b26fd6 46%, #9157c1 100%);
+    color: white;
+    border: none;
+    text-shadow: 1px 1px 0px #9157c1;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+input[type=submit]:hover {
+    background: linear-gradient(to bottom, #d07aeb 1%, #b26fd6 46%, #a165d3 100%);
+}
+
+input[type=submit]:active {
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+input[type=password],
+input[type=text] {
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    box-shadow: 0px 0px 0px 2px #79185b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

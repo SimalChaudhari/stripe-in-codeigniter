@@ -1,0 +1,175 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: Poppins;
+}
+
+.login_html {
+    background: linear-gradient(to bottom, #ffffff 0%, #f8e7f6 75%);
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.login_page {
+    width: 600px;
+    padding: 60px 15px 40px 15px;
+    margin: 100px auto;
+    background: linear-gradient(to bottom, #f2f2f2 0%, #ffffff 48%, #f2f2f2 100%);
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px #e5d7e3;
+}
+
+.login_page .label {
+    width: 270px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.login_page .warning {
+    color: red;
+}
+
+.login_page img:first-child {
+    margin-bottom: 20px;
+}
+
+.login_page input {
+    width: 270px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.login_page input[type=submit] {
+    padding: 12px 0px;
+    text-align: center;
+    background: linear-gradient(to bottom, #b866d1 1%, #b26fd6 46%, #9157c1 100%);
+    color: white;
+    border: none;
+    text-shadow: 1px 1px 0px #9157c1;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.login_page input[type=submit]:hover {
+    background: linear-gradient(to bottom, #d07aeb 1%, #b26fd6 46%, #a165d3 100%);
+}
+
+.login_page input[type=submit]:active {
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.login_page input[type=password],
+.login_page input[type=text],
+.login_page input[type=number],
+.login_page select {
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.login_page input:focus,
+.login_page select {
+    box-shadow: 0px 0px 0px 2px #79185b;
+}
+
+.login_page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_page .form_field{
+    display: flex;
+}
+.login_page .form_field .Username{
+    margin-right: 10px;
+}
+.login_page .form_field .Password{
+    margin-left: 10px;
+}
+
+.name , 
+.name  .label,
+.name  input,
+.name  select{
+    width: 100%;
+}
+.sub_text{
+    font-size: 14px;
+    margin-top: -23px;
+    text-align: left;
+}
+.login_page .zip_code .label,
+.login_page .zip_code input {
+    width: 50% !important;
+}
+.login_page .name.zip_code {
+    display: flex;
+    flex-flow: column;
+}
+.sumnit_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.sumnit_div .signup_button{
+    text-decoration: none;
+    padding: 12px 25px;
+    text-align: center;
+    background: linear-gradient(to bottom, #b866d1 1%, #b26fd6 46%, #9157c1 100%);
+    color: white;
+    border: none;
+    text-shadow: 1px 1px 0px #9157c1;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.sumnit_div  .custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #a263cb;
+    background-color: #a263cb;
+}
+.sumnit_div .custom-control-label{
+    text-align: left;
+}
+.wrap.login_page.signup .label{
+    font-size: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .login_page{
+        width: auto;
+    }
+    .login_page .label{
+        width: auto;
+    }
+    .login_page .form_field {
+        display: block;
+    }
+    .login_page .form_field .Username{
+        margin-right: 0px;
+    }
+    .login_page .form_field .Password{
+        margin-left: 0px;
+    }
+    .login_page .zip_code .label,
+    .login_page .zip_code input {
+        width: 100% !important;
+    }
+    .login_page .form_field.form_field_set input,
+    .login_page .form_field.form_field_set{
+        width: 100%;
+    }
+}

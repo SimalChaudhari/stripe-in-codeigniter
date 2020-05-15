@@ -1,0 +1,62 @@
+html {
+    color: #555;
+    font-weight: normal;
+}
+
+h1 {
+    color: #333;
+}
+
+.error {
+    display: block;
+    border: 1px solid #ddd;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div.wrap {
+    margin-top: 20px;
+    padding: 20px 5px;
+}
+
+label {
+    font-weight: bold;
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+}
+
+.error span {
+    color: red;
+    display: block;
+    font-weight: bold;
+}
+
+
+.info {
+    display: block;
+    background: #3498DB;
+    border: 1px solid #2d85bf;
+    width: 90%;
+    margin: 5px auto;
+    position: relative;
+    padding: 7px;
+    border-radius: 7px;
+    color: white;
+    font-size: 11px;
+
+}
+
+.info::before {
+    content: 'i';
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 14px;
+}
+
+a {
+    color: white;
+}

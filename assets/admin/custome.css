@@ -1,0 +1,11 @@
+.error {
+    color: red !important;
+}
+
+.activeClass{
+    background: #cb1e05;
+}
+
+.active{
+    background: #cb1e05;
+}
