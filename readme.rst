@@ -24,7 +24,7 @@ Let's get start with steps
 
 Step 1 : Create a Stripe account (https://stripe.com/) and login to the dashboard.
 
-Step 2 : Navigate to the Developers » API keys page. https://prnt.sc/shcfoa. here is two type of standard API keys named secret key and publishable key.To show the Secret key, click on Reveal test key token button.
+Step 2 : Navigate to the Developers » API keys page... image:: https://prnt.sc/shcfoa here is two type of standard API keys named secret key and publishable key.To show the Secret key, click on Reveal test key token button.
 
 Step 3 : go to constant file and set API keys https://prnt.sc/shchpq
 
